@@ -1,0 +1,9 @@
+config SECURITY_ROOTPLUG
+	bool "rootplug module support"
+	depends on SECURITY
+	default y
+	help
+		If you say Y here support for the Rootplug will be compiled
+		into the kernel.
+
+		If unsure, say N.
